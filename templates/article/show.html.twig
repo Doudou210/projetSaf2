@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title "Article : " ~ slug %}
+
+{% block body %}
+<div>
+    <h1>{{person.articleName ~ person.prix ~ person.description }}</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, ea corrupti amet qui odio placeat maiores dolorem earum mollitia recusandae facilis esse eligendi alias fuga debitis culpa harum aliquid! Eaque!</p>
+    {% for i in 0..10 %}
+        * {{ i }}
+    {% endfor %}
+</div>
+{% endblock %}

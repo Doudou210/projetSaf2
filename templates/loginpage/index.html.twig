@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello LoginPageController!{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+    {{ form_start(form) }}
+    {{ form_row(form.username, {'attr': {'class': 'form-control', 'placeholder': 'Username', 'required': true}}) }}
+    {{ form_row(form.password, {'attr': {'class': 'form-control', 'placeholder': 'Password', 'required': true}}) }}
+    {{ form_end(form) }}
+
+    {# <a href="{{path('login')}}"><p>Vous avez déjà un compte ?</p></a> #}
+</div>
+{% endblock %}

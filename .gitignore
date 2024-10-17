@@ -1,0 +1,56 @@
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
+
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> symfony/asset-mapper ###
+/public/assets/
+/assets/vendor/
+###< symfony/asset-mapper ###
+
+/.env
+.env/
+
+/var/cache/
+/var/log/
+/config/packages/dev/
+/config/packages/prod/
+.idea/
+.vscode/
+.DS_Store
+/vendor/
+*.bak
+*.swp
+###
+
+/compose.yaml
+/compose.override.yaml
+
+/composer.json
+/composer.lock
+.env
+.env.test
+
+/migrations
+migrations/
+/config
+config/
+
+compose.override.yaml
+compose.yaml
